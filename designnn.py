@@ -11,4 +11,11 @@ if R<4:
    Ratio=0.0055
 else:
    Ratio= 0.0065
-   
+
+As= Ratio *df["Width"][0]*d
+
+df["As"]=As
+
+df.to_csv("Result.csv",index=False)
+print("As=",As)
+print("Done")
