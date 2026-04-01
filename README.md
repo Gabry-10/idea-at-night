@@ -1,12 +1,23 @@
 # RC Beam Design Project
-##Description
-the project calculate the area steel from reinforcement concrete using inputs from excel sheet
-##how to run code
-1.install required libraries
-"pipe install -r requirements.txt"
-##input file
-   the program read the input from "excel idea.xlsx"
-##output file
-   the program generates Result.csv
-   which contain the calculated As
-   ##screen shot of the code
+
+## Description
+This project calculates the required steel area (As) for a reinforced concrete beam using input data from an Excel file.
+
+## How to Run
+1. Install required libraries:
+pip install -r requirements.txt
+
+2. Run the code:
+python script.py
+
+## Input File
+The program reads input data from:
+input_data.xlsx
+
+## Output
+The program generates:
+results.csv
+which contains the calculated steel area (As).
+
+## Screenshot
+See the image below showing the code running successfully.
