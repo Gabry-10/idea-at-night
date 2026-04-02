@@ -17,6 +17,6 @@ if R<4:
 else:
     ratio = 0.0065
 As = ratio * b * d
-df["As"] = As 
+df["As"] = As
 df.to_csv("result.csv",index=False)
 print("done! check result in csv file")   
